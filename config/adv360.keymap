@@ -281,6 +281,83 @@
             #binding-cells = <0>;
             bindings = <&hold_shift LS(N0) N0>;
         };
+
+        hs_grave: hs_grave {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "` / 길게 ~";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(GRAVE) GRAVE>;
+        };
+
+        hs_minus: hs_minus {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "- / 길게 _";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(MINUS) MINUS>;
+        };
+
+        hs_equal: hs_equal {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "= / 길게 +";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(EQUAL) EQUAL>;
+        };
+
+        hs_lbkt: hs_lbkt {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "[ / 길게 {";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(LBKT) LBKT>;
+        };
+
+        hs_rbkt: hs_rbkt {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "] / 길게 }";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(RBKT) RBKT>;
+        };
+
+        hs_bslh: hs_bslh {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "\\ / 길게 |";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(BSLH) BSLH>;
+        };
+
+        hs_semi: hs_semi {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "; / 길게 :";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(SEMI) SEMI>;
+        };
+
+        hs_sqt: hs_sqt {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "' / 길게 \"";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(SQT) SQT>;
+        };
+
+        hs_comma: hs_comma {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = ", / 길게 <";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(COMMA) COMMA>;
+        };
+
+        hs_dot: hs_dot {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = ". / 길게 >";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(DOT) DOT>;
+        };
+
+        hs_fslh: hs_fslh {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "/ / 길게 ?";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(FSLH) FSLH>;
+        };
         // tapdance-tool:end
     };
 
