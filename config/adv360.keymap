@@ -22,7 +22,265 @@
       };
 
         // tapdance-tool:begin (360 탭 댄스 생성기가 관리하는 영역)
+        hold_shift: hold_shift {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
 
+        hs_a: hs_a {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "a / 길게 A";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(A) A>;
+        };
+
+        hs_b: hs_b {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "b / 길게 B";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(B) B>;
+        };
+
+        hs_c: hs_c {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "c / 길게 C";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(C) C>;
+        };
+
+        hs_d: hs_d {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "d / 길게 D";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(D) D>;
+        };
+
+        hs_e: hs_e {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "e / 길게 E";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(E) E>;
+        };
+
+        hs_f: hs_f {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "f / 길게 F";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(F) F>;
+        };
+
+        hs_g: hs_g {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "g / 길게 G";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(G) G>;
+        };
+
+        hs_h: hs_h {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "h / 길게 H";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(H) H>;
+        };
+
+        hs_i: hs_i {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "i / 길게 I";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(I) I>;
+        };
+
+        hs_j: hs_j {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "j / 길게 J";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(J) J>;
+        };
+
+        hs_k: hs_k {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "k / 길게 K";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(K) K>;
+        };
+
+        hs_l: hs_l {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "l / 길게 L";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(L) L>;
+        };
+
+        hs_m: hs_m {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "m / 길게 M";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(M) M>;
+        };
+
+        hs_n: hs_n {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "n / 길게 N";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N) N>;
+        };
+
+        hs_o: hs_o {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "o / 길게 O";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(O) O>;
+        };
+
+        hs_p: hs_p {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "p / 길게 P";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(P) P>;
+        };
+
+        hs_q: hs_q {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "q / 길게 Q";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(Q) Q>;
+        };
+
+        hs_r: hs_r {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "r / 길게 R";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(R) R>;
+        };
+
+        hs_s: hs_s {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "s / 길게 S";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(S) S>;
+        };
+
+        hs_t: hs_t {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "t / 길게 T";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(T) T>;
+        };
+
+        hs_u: hs_u {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "u / 길게 U";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(U) U>;
+        };
+
+        hs_v: hs_v {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "v / 길게 V";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(V) V>;
+        };
+
+        hs_w: hs_w {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "w / 길게 W";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(W) W>;
+        };
+
+        hs_x: hs_x {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "x / 길게 X";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(X) X>;
+        };
+
+        hs_y: hs_y {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "y / 길게 Y";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(Y) Y>;
+        };
+
+        hs_z: hs_z {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "z / 길게 Z";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(Z) Z>;
+        };
+
+        hs_n1: hs_n1 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "1 / 길게 !";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N1) N1>;
+        };
+
+        hs_n2: hs_n2 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "2 / 길게 @";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N2) N2>;
+        };
+
+        hs_n3: hs_n3 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "3 / 길게 #";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N3) N3>;
+        };
+
+        hs_n4: hs_n4 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "4 / 길게 $";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N4) N4>;
+        };
+
+        hs_n5: hs_n5 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "5 / 길게 %";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N5) N5>;
+        };
+
+        hs_n6: hs_n6 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "6 / 길게 ^";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N6) N6>;
+        };
+
+        hs_n7: hs_n7 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "7 / 길게 &";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N7) N7>;
+        };
+
+        hs_n8: hs_n8 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "8 / 길게 *";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N8) N8>;
+        };
+
+        hs_n9: hs_n9 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "9 / 길게 (";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N9) N9>;
+        };
+
+        hs_n0: hs_n0 {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "0 / 길게 )";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N0) N0>;
+        };
         // tapdance-tool:end
     };
 
