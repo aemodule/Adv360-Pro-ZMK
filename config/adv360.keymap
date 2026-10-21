@@ -20,6 +20,216 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
+
+        // tapdance-tool:begin (360 탭 댄스 생성기가 관리하는 영역)
+        td_a: td_a {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "a / A";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp A>, <&kp LS(A)>;
+        };
+
+        td_b: td_b {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "b / B";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp B>, <&kp LS(B)>;
+        };
+
+        td_c: td_c {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "c / C";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp C>, <&kp LS(C)>;
+        };
+
+        td_d: td_d {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "d / D";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp D>, <&kp LS(D)>;
+        };
+
+        td_e: td_e {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "e / E";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp E>, <&kp LS(E)>;
+        };
+
+        td_f: td_f {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "f / F";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp F>, <&kp LS(F)>;
+        };
+
+        td_g: td_g {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "g / G";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp G>, <&kp LS(G)>;
+        };
+
+        td_h: td_h {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "h / H";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp H>, <&kp LS(H)>;
+        };
+
+        td_i: td_i {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "i / I";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp I>, <&kp LS(I)>;
+        };
+
+        td_j: td_j {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "j / J";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp J>, <&kp LS(J)>;
+        };
+
+        td_k: td_k {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "k / K";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp K>, <&kp LS(K)>;
+        };
+
+        td_l: td_l {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "l / L";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp L>, <&kp LS(L)>;
+        };
+
+        td_m: td_m {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "m / M";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp M>, <&kp LS(M)>;
+        };
+
+        td_n: td_n {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "n / N";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp N>, <&kp LS(N)>;
+        };
+
+        td_o: td_o {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "o / O";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp O>, <&kp LS(O)>;
+        };
+
+        td_p: td_p {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "p / P";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp P>, <&kp LS(P)>;
+        };
+
+        td_q: td_q {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "q / Q";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp Q>, <&kp LS(Q)>;
+        };
+
+        td_r: td_r {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "r / R";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp R>, <&kp LS(R)>;
+        };
+
+        td_s: td_s {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "s / S";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp S>, <&kp LS(S)>;
+        };
+
+        td_t: td_t {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "t / T";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp T>, <&kp LS(T)>;
+        };
+
+        td_u: td_u {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "u / U";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp U>, <&kp LS(U)>;
+        };
+
+        td_v: td_v {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "v / V";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp V>, <&kp LS(V)>;
+        };
+
+        td_w: td_w {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "w / W";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp W>, <&kp LS(W)>;
+        };
+
+        td_x: td_x {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "x / X";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp X>, <&kp LS(X)>;
+        };
+
+        td_y: td_y {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "y / Y";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp Y>, <&kp LS(Y)>;
+        };
+
+        td_z: td_z {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "z / Z";
+            #binding-cells = <0>;
+            tapping-term-ms = <250>;
+            bindings = <&kp Z>, <&kp LS(Z)>;
+        };
+        // tapdance-tool:end
     };
 
   keymap {
