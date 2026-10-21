@@ -26,7 +26,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "a / A";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp A>, <&kp LS(A)>;
         };
 
@@ -34,7 +34,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "b / B";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp B>, <&kp LS(B)>;
         };
 
@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "c / C";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp C>, <&kp LS(C)>;
         };
 
@@ -50,7 +50,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "d / D";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp D>, <&kp LS(D)>;
         };
 
@@ -58,7 +58,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "e / E";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp E>, <&kp LS(E)>;
         };
 
@@ -66,7 +66,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "f / F";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp F>, <&kp LS(F)>;
         };
 
@@ -74,7 +74,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "g / G";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp G>, <&kp LS(G)>;
         };
 
@@ -82,7 +82,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "h / H";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp H>, <&kp LS(H)>;
         };
 
@@ -90,7 +90,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "i / I";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp I>, <&kp LS(I)>;
         };
 
@@ -98,7 +98,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "j / J";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp J>, <&kp LS(J)>;
         };
 
@@ -106,7 +106,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "k / K";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp K>, <&kp LS(K)>;
         };
 
@@ -114,7 +114,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "l / L";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp L>, <&kp LS(L)>;
         };
 
@@ -122,7 +122,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "m / M";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp M>, <&kp LS(M)>;
         };
 
@@ -130,7 +130,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "n / N";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp N>, <&kp LS(N)>;
         };
 
@@ -138,7 +138,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "o / O";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp O>, <&kp LS(O)>;
         };
 
@@ -146,7 +146,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "p / P";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp P>, <&kp LS(P)>;
         };
 
@@ -154,7 +154,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "q / Q";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp Q>, <&kp LS(Q)>;
         };
 
@@ -162,7 +162,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "r / R";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp R>, <&kp LS(R)>;
         };
 
@@ -170,7 +170,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "s / S";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp S>, <&kp LS(S)>;
         };
 
@@ -178,7 +178,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "t / T";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp T>, <&kp LS(T)>;
         };
 
@@ -186,7 +186,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "u / U";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp U>, <&kp LS(U)>;
         };
 
@@ -194,7 +194,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "v / V";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp V>, <&kp LS(V)>;
         };
 
@@ -202,7 +202,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "w / W";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp W>, <&kp LS(W)>;
         };
 
@@ -210,7 +210,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "x / X";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp X>, <&kp LS(X)>;
         };
 
@@ -218,7 +218,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "y / Y";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp Y>, <&kp LS(Y)>;
         };
 
@@ -226,7 +226,7 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "z / Z";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <150>;
             bindings = <&kp Z>, <&kp LS(Z)>;
         };
         // tapdance-tool:end
