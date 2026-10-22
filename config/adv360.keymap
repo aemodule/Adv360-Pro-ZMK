@@ -31,11 +31,102 @@
             bindings = <&kp>, <&kp>;
         };
 
+        hs_a: hs_a {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "a/A";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(A) A>;
+        };
+
+        hs_b: hs_b {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "b/B";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(B) B>;
+        };
+
+        hs_c: hs_c {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "c/C";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(C) C>;
+        };
+
+        hs_d: hs_d {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "d/D";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(D) D>;
+        };
+
         hs_e: hs_e {
             compatible = "zmk,behavior-tap-dance";
             display-name = "e/E";
             #binding-cells = <0>;
             bindings = <&hold_shift LS(E) E>;
+        };
+
+        hs_f: hs_f {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "f/F";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(F) F>;
+        };
+
+        hs_g: hs_g {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "g/G";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(G) G>;
+        };
+
+        hs_h: hs_h {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "h/H";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(H) H>;
+        };
+
+        hs_i: hs_i {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "i/I";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(I) I>;
+        };
+
+        hs_j: hs_j {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "j/J";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(J) J>;
+        };
+
+        hs_k: hs_k {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "k/K";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(K) K>;
+        };
+
+        hs_l: hs_l {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "l/L";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(L) L>;
+        };
+
+        hs_m: hs_m {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "m/M";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(M) M>;
+        };
+
+        hs_n: hs_n {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "n/N";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(N) N>;
         };
 
         hs_o: hs_o {
@@ -66,6 +157,13 @@
             bindings = <&hold_shift LS(R) R>;
         };
 
+        hs_s: hs_s {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "s/S";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(S) S>;
+        };
+
         hs_t: hs_t {
             compatible = "zmk,behavior-tap-dance";
             display-name = "t/T";
@@ -73,11 +171,46 @@
             bindings = <&hold_shift LS(T) T>;
         };
 
+        hs_u: hs_u {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "u/U";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(U) U>;
+        };
+
+        hs_v: hs_v {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "v/V";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(V) V>;
+        };
+
         hs_w: hs_w {
             compatible = "zmk,behavior-tap-dance";
             display-name = "w/W";
             #binding-cells = <0>;
             bindings = <&hold_shift LS(W) W>;
+        };
+
+        hs_x: hs_x {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "x/X";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(X) X>;
+        };
+
+        hs_y: hs_y {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "y/Y";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(Y) Y>;
+        };
+
+        hs_z: hs_z {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "z/Z";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(Z) Z>;
         };
 
         hs_n1: hs_n1 {
