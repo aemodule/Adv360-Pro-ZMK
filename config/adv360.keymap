@@ -358,6 +358,13 @@
             #binding-cells = <0>;
             bindings = <&hold_shift LS(FSLH) FSLH>;
         };
+
+        hs_ret: hs_ret {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Ent/S+Ent";
+            #binding-cells = <0>;
+            bindings = <&hold_shift LS(RET) RET>;
+        };
         // tapdance-tool:end
     };
 
