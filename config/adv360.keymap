@@ -371,28 +371,28 @@
             compatible = "zmk,behavior-tap-dance";
             display-name = "Mouse Up";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_Y(-600)>;
+            bindings = <&mmv MOVE_Y(-800)>;
         };
 
         ms_down: ms_down {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Mouse Dn";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_Y(600)>;
+            bindings = <&mmv MOVE_Y(800)>;
         };
 
         ms_left: ms_left {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Mouse Lt";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_X(-600)>;
+            bindings = <&mmv MOVE_X(-800)>;
         };
 
         ms_right: ms_right {
             compatible = "zmk,behavior-tap-dance";
             display-name = "Mouse Rt";
             #binding-cells = <0>;
-            bindings = <&mmv MOVE_X(600)>;
+            bindings = <&mmv MOVE_X(800)>;
         };
 
         ms_sup: ms_sup {
