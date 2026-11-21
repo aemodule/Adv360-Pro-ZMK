@@ -1,0 +1,4 @@
+name: layer-indicator
+build:
+  cmake: .
+  kconfig: Kconfig

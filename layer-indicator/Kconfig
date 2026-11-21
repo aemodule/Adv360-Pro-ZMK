@@ -1,0 +1,7 @@
+config ZMK_LAYER_INDICATOR_KEYS
+    bool "Send F16-F19 to the computer when the active layer changes"
+    default y
+    depends on !ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL
+    help
+      Layer 0 sends F16, layer 1 F17, layer 2 F18, layer 3 F19.
+      A menu bar app on the computer reads these to show the current layer.
