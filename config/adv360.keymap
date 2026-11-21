@@ -433,3 +433,6 @@
     };
   };
 };
+&mkp {
+    display-name = "Mouse Key Press";
+};
