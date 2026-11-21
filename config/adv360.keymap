@@ -264,7 +264,7 @@
 
         hs_n8: hs_n8 {
             compatible = "zmk,behavior-tap-dance";
-            display-name = "8/*";
+            display-name = "8/star";
             #binding-cells = <0>;
             bindings = <&hold_shift LS(N8) N8>;
         };
@@ -355,7 +355,7 @@
 
         hs_fslh: hs_fslh {
             compatible = "zmk,behavior-tap-dance";
-            display-name = "//?";
+            display-name = "slash/?";
             #binding-cells = <0>;
             bindings = <&hold_shift LS(FSLH) FSLH>;
         };
@@ -365,6 +365,62 @@
             display-name = "Ent/S+Ent";
             #binding-cells = <0>;
             bindings = <&hold_shift LS(RET) RET>;
+        };
+
+        ms_up: ms_up {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Mouse Up";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_Y(-600)>;
+        };
+
+        ms_down: ms_down {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Mouse Dn";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_Y(600)>;
+        };
+
+        ms_left: ms_left {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Mouse Lt";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_X(-600)>;
+        };
+
+        ms_right: ms_right {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Mouse Rt";
+            #binding-cells = <0>;
+            bindings = <&mmv MOVE_X(600)>;
+        };
+
+        ms_sup: ms_sup {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Scroll Up";
+            #binding-cells = <0>;
+            bindings = <&msc MOVE_Y(10)>;
+        };
+
+        ms_sdown: ms_sdown {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Scroll Dn";
+            #binding-cells = <0>;
+            bindings = <&msc MOVE_Y(-10)>;
+        };
+
+        ms_sleft: ms_sleft {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Scroll Lt";
+            #binding-cells = <0>;
+            bindings = <&msc MOVE_X(-10)>;
+        };
+
+        ms_sright: ms_sright {
+            compatible = "zmk,behavior-tap-dance";
+            display-name = "Scroll Rt";
+            #binding-cells = <0>;
+            bindings = <&msc MOVE_X(10)>;
         };
         // tapdance-tool:end
     };
@@ -432,7 +488,4 @@
       status = "reserved";
     };
   };
-};
-&mkp {
-    display-name = "Mouse Key Press";
 };
