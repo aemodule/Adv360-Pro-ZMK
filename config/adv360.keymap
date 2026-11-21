@@ -422,6 +422,15 @@
             #binding-cells = <0>;
             bindings = <&msc MOVE_X(10)>;
         };
+
+        mc_1: mc_1 {
+            compatible = "zmk,behavior-macro";
+            display-name = "Test";
+            #binding-cells = <0>;
+            wait-ms = <15>;
+            tap-ms = <30>;
+            bindings = <&macro_tap &kp N1 &kp N8 &kp N9 &kp N5>, <&macro_wait_time 200>, <&macro_tap &none>, <&macro_wait_time 15>, <&macro_tap &kp RET>;
+        };
         // tapdance-tool:end
     };
 
